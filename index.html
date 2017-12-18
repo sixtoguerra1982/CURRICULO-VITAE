@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		body {
+			background-color:#E3F0D1;
+			margin: 0 auto;
+		}
+		header h1{
+			text-align: center;
+		}
+		.container {
+			margin:  0 auto;
+			max-width: 960px;
+			width: 100%;
+			height: 100%;
+			background-color: #E3F0D1 ;
+		}
+		.ribbon {
+		    width: 9px;
+		    height: 300px;
+		    border-left: 150px solid #B3EAFF;
+		    border-right: 150px solid #B3EAFF;
+		    border-bottom: 35px solid transparent;
+		}
+		
+		div.ribbon img{
+			width: 300px;
+			height: 300px;
+			float: left;
+			margin: 0px -145px;
+		}
+
+		.datos1{
+			background-color: yellow;
+			border-radius: 10px 10px;
+			border:	1px solid red;
+			left: 320px;
+			position: relative;
+			top:-330px;
+			width: 65%;
+			display: inline-flex;
+			text-align: justify;
+		}
+		.datos2{
+			background-color: yellow;
+			border-radius: 10px 10px;
+			border:	1px solid red;
+			left: 0px;
+			position: absolute;
+			text-align: justify;
+			float: left;
+			display: block;
+		}
+		.datos3{
+			background-color: yellow;
+			border-radius: 10px 10px;
+			border:	1px solid red;
+			left: 0px;
+			position: relative;
+			top:-250px;
+			text-align: justify;
+			float: left;
+			display: block;
+		}
+
+		.datos4{
+			background-color: yellow;
+			border-radius: 10px 10px;
+			border:	1px solid red;
+			text-align: justify;
+		}
+
+		.datos5{
+			background-color: yellow;
+			border-radius: 10px 10px;
+			border:	1px solid red;
+			clear:both;
+			display: block;
+			float: left;
+			position: relative;
+			text-align: justify;
+			width: 100%;
+			top: -190px;
+		}
+
+		.etiqueta
+		{
+			border-radius: 10px 10px;
+			height: 40px;
+			width: 150px;
+			color:#D1C9FF;
+			background-color: orange;
+			position: absolute;
+			margin: 1% 1%;
+		}
+		ul{
+			margin: 10% 130px;
+		}
+		ul li{
+			position: static;
+		}
+		
+		
+		@media (min-width:  968px){
+			.datos2{
+				width: 48%;
+				float: none;
+				position: relative;
+				height: 265px;
+			}
+			.datos3{
+				float: none;
+				height: 265px;
+				left: 52%;
+				overflow: hidden;
+				position: absolute;
+				top: 424px;
+				width: 48%;
+			}
+
+			div.datos2 p{
+				margin-left: -100px;
+			}
+			div .datos2 li{
+				margin-left: -50px;
+				text-align: justify;
+				width: 300px;
+			}
+			div .datos3 p{
+				margin-left: -100px;
+			}
+			div .datos3 li{
+				margin-left: -50px;
+				text-align: justify;
+				width: 300px;
+			}
+			div .datos3 img{
+				margin-left: -100px;
+				width: 200px;
+			}
+
+			.datos4{
+				float: left;
+				position: absolute;
+				top: 695px;
+				width: 461px;
+				height: 320px;
+			}
+			div .datos4 p{
+				margin-left: -100px;
+			}
+			div .datos4 li{
+				margin-left: -50px;
+				text-align: justify;
+				width: 300px;
+			}
+			div .datos4 img{
+				margin-left: -100px;
+				width: 200px;
+			}
+			.datos5{
+				float: left;
+				left: 52%;
+				height: 320px;
+				width: 48%;
+				position: absolute;
+				top: 695px;
+
+			}
+			div .datos5 p{
+				margin-left: -100px;
+			}
+			div .datos5 li{
+				margin-left: -50px;
+				text-align: justify;
+				width: 300px;
+			}
+			div .datos5 img{
+				margin-left: -100px;
+				height: 50px;
+				overflow: hidden;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+				<h1>Curriculum Vitae</h1>
+		</header>
+		
+			<section>
+					<div class="ribbon">
+						<img src="yo.jpg">
+					</div>
+			</section>
+				<div class="datos1">
+					<div class="etiqueta">ANTECEDENTES PERSONALES</div>
+					<ul>
+						<li>Nombre Completo		: Sixto Felipe Guerra Urbina</li>
+						<li>Fecha de Nacimiento	: 30/08/1982</li>
+						<li>Profesion			: Analista de Sistemas</li>
+						<li>Nacionalidad		: Chilena</li>
+						<li>Estado Civil		: Soltero</li>
+						<li>Domicilio			: Zenteno 1490 Dpto 1024, Santiago</li>
+						<li>Telefono			: 9 64 68 53 33</li>
+						<li>E-mail				: sixto.guerra@gmail.com</li>
+						<li>Otros				: Licencia de conducior clase B</li>
+					</ul>
+				</div>
+			
+				<div class="datos2">
+					<div class="etiqueta">FORMACION ACADEMICA</div>
+					<ul>
+						<p>2004-2006 Técnico Profesional:</ṕ>
+						<li>
+							Titulado de "Analista de Sistemas", instituto de formacion Tecnica
+							Jhon F Kennedy.
+						</li>
+						<p>1997 - 2000 Enseñanza Media:</p>
+						<li>
+							Enseñanza media completa Colegio Politecnico N°1 de Maipú, Especialidad
+							"Programación en Computación"
+						</li>
+				</div>
+
+				<div class="datos3">
+					<div class="etiqueta">EXPERICIA LABORAL</div>
+					<ul>
+						<p>Mayo 2015 - Fecha Actual</p>
+						<img src="logo-soser.png">
+						</p>
+						<li>Control de inventario TI.</li>
+						<li>Mantencion de infraestructura Informatica.</li>
+						<li>HelpDesk.</li>
+						<li>Respaldo de informacion Critica de la Empresa.</li>
+						<li>Administrador Softland ERP.</li>
+					</ul>
+				</div>
+
+				<div class="datos4">
+					<div class="etiqueta">EXPERICIA LABORAL</div>
+					<ul>
+						<p>Noviembre 2014 - Marzo 2015</p>
+						<img src="logoanidaweb.png">
+						</p>
+						<li>Analista de Monitoreo.</li>
+						<li>Gestion de informacion proyecto provision de nodos para Entel.</li>
+						<li>Pruebas de Conectividad</li>
+						<li>Provision de nodos en herramientas NNM 7.5 Y 9i</li>
+					</ul>
+				</div>
+				<div class="datos5">
+					<div class="etiqueta">EXPERICIA LABORAL</div>
+					<ul>
+						<p>Mayo 2007 - Mayo 2014</p>
+						<img src="intertek.png">
+						<li>IT Help Desktop.</li>
+						<li>Mantencion de Red, Software, Hadware, 
+							equipos informaticos en general</li>
+						<li>Resplado de Informacion</li>
+						<li>Registro de equipos</li>
+						<li>Programacion en Visual Basic 6.0.</li>
+						<li>Web Master</li>
+						<li>Desde Febrero 2007 a Diciembre 2001 encargado
+						departamente RRHH</li>
+					</ul>
+				</div>
+			
+		
+		<footer></footer>
+	</div>
+</body>
+</html>
